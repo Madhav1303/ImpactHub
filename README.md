@@ -1,4 +1,4 @@
-#🌍ImpactHub
+🌍ImpactHub
 🚀 Bridging NGOs & Students Through Technology
 
 Impact Hub is a platform that connects NGOs facing real-world social challenges with students capable of building technology-driven solutions.
