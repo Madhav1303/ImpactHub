@@ -51,7 +51,7 @@ Blockchain<br>
 
 📂 Project Status<br>
 ⚠ The project is not fully completed.<br>
-We are actively working on:<br>
+We have to worki on the following areas :<br>
 •  Improving UI/UX<br>
 •  Enhancing database structure<br>
 •  Implementing full blockchain integration<br>
@@ -59,17 +59,131 @@ We are actively working on:<br>
 •  Deployment<br>
 
 ⚙ How to Run Locally<br>
-1️⃣ Clone the Repository<br>
-git clone <your-repo-link><br>
-cd impact-hub<br>
+Follow the steps below to run the ImpactHub project on your system.<br>
 
-2️⃣ Setup Backend<br>
-cd backend<br>
+---
+
+## 1️⃣ Clone the Repository<br>
+
+```bash<br>
+git clone https://github.com/Madhav1303/ImpactHub.git<br>
+cd ImpactHub<br>
+```<br>
+
+---<br>
+
+## 2️⃣ Backend Setup (Flask)<br>
+
+### Step 1: Go to Backend Folder<br>
+
+```bash<br>
+cd BACKEND<br>
+```<br>
+
+---<br>
+
+### Step 2: Create Virtual Environment (Recommended)<br>
+
+#### ▶ On Windows<br>
+```bash<br>
+python -m venv venv<br>
+venv\Scripts\activate<br>
+```<br>
+
+
+### Step 3: Install Required Dependencies<br>
+
+```bash<br>
 pip install -r requirements.txt<br>
-python main.py<br>
+```<br>
 
-3️⃣ Run Frontend<br>
-Open register.html or landing_page.html using Live Server or directly in browser.<br>
+If `requirements.txt` is not present, install manually:<br>
+
+```bash<br>
+pip install flask flask-cors<br>
+```<br>
+
+(Add other dependencies if required.)<br>
+
+---<br>
+
+### Step 4: Run the Backend Server<br>
+
+```bash<br>
+python main.py<br>
+```<br>
+
+After running this, you should see something like:<br>
+
+```<br>
+Running on http://127.0.0.1:5000/<br>
+```<br>
+
+Your backend API is now running locally.<br>
+
+---<br>
+
+## 3️⃣ Frontend Setup<br>
+
+Open a new terminal (keep backend running).<br>
+
+Go back to project root:<br>
+
+```bash<br>
+cd ..<br>
+```<br>
+
+Then go to frontend folder (if exists):<br>
+
+```bash<br>
+cd FRONTEND<br>
+```<br>
+
+---<br>
+
+### Option 1 (Recommended): Use VS Code Live Server<br>
+
+1. Open the FRONTEND folder in VS Code.<br>
+2. Right click on `index.html`<br>
+3. Click **Open with Live Server**<br>
+
+---
+
+### Option 2: Open Directly in Browser<br>
+
+Simply double click:<br>
+
+```<br>
+index.html<br>
+```<br>
+
+---<br>
+
+## 4️⃣ Verify Everything Works<br>
+
+- Backend running at:<br>
+  ```<br>
+  http://127.0.0.1:5000/<br>
+  ```<br>
+
+- Frontend should load in browser.<br>
+- Make sure API URLs in JS files match:<br>
+  ```<br>
+  http://127.0.0.1:5000/<br>
+  ```<br>
+
+---<br>
+
+## ⚠ Important Notes<br>
+
+- Keep backend terminal running while using frontend.<br>
+- If you get CORS error, ensure Flask-CORS is installed.<br>
+- If using database/blockchain features, configure them before running.<br>
+- Make sure Python is installed and added to PATH.<br>
+
+---<br>
+
+🎉 That's it! ImpactHub should now run locally on your system.<br>
 
 🌐 Deployment<br>
 🚧 Not deployed yet.<br>
@@ -83,7 +197,3 @@ This project is developed for educational and hackathon purposes.<br>
 
 ⭐ Why Impact Hub?<br>
 Impact Hub is not just a project — it is a step toward digital transformation in the social sector, empowering students while enabling NGOs to modernize their workflows.<br>
-
-
-
-
