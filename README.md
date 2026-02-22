@@ -82,108 +82,108 @@ cd BACKEND
 
 ---
 
-### Step 2: Create Virtual Environment (Recommended)<br>
+### Step 2: Create Virtual Environment (Recommended)
 
 #### ▶ On Windows
-```bash<br>
-python -m venv venv<br>
-venv\Scripts\activate<br>
-```<br>
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 
 
-### Step 3: Install Required Dependencies<br>
+### Step 3: Install Required Dependencies
 
-```bash<br>
-pip install -r requirements.txt<br>
-```<br>
+```bash
+pip install -r requirements.txt
+```
 
-If `requirements.txt` is not present, install manually:<br>
+If `requirements.txt` is not present, install manually:
 
-```bash<br>
-pip install flask flask-cors<br>
-```<br>
+```bash
+pip install flask flask-cors
+```
 
-(Add other dependencies if required.)<br>
-
----<br>
-
-### Step 4: Run the Backend Server<br>
-
-```bash<br>
-python main.py<br>
-```<br>
-
-After running this, you should see something like:<br>
-
-```<br>
-Running on http://127.0.0.1:5000/<br>
-```<br>
-
-Your backend API is now running locally.<br>
-
----<br>
-
-## 3️⃣ Frontend Setup<br>
-
-Open a new terminal (keep backend running).<br>
-
-Go back to project root:<br>
-
-```bash<br>
-cd ..<br>
-```<br>
-
-Then go to frontend folder (if exists):<br>
-
-```bash<br>
-cd FRONTEND<br>
-```<br>
-
----<br>
-
-### Option 1 (Recommended): Use VS Code Live Server<br>
-
-1. Open the FRONTEND folder in VS Code.<br>
-2. Right click on `index.html`<br>
-3. Click **Open with Live Server**<br>
+(Add other dependencies if required.)
 
 ---
 
-### Option 2: Open Directly in Browser<br>
+### Step 4: Run the Backend Server
 
-Simply double click:<br>
+```bash
+python main.py
+```
 
-```<br>
-index.html<br>
-```<br>
+After running this, you should see something like:
 
----<br>
+```
+Running on http://127.0.0.1:5000/
+```
 
-## 4️⃣ Verify Everything Works<br>
+Your backend API is now running locally.
 
-- Backend running at:<br>
-  ```<br>
-  http://127.0.0.1:5000/<br>
-  ```<br>
+---
 
-- Frontend should load in browser.<br>
-- Make sure API URLs in JS files match:<br>
-  ```<br>
-  http://127.0.0.1:5000/<br>
-  ```<br>
+## 3️⃣ Frontend Setup
 
----<br>
+Open a new terminal (keep backend running).
 
-## ⚠ Important Notes<br>
+Go back to project root:
 
-- Keep backend terminal running while using frontend.<br>
-- If you get CORS error, ensure Flask-CORS is installed.<br>
-- If using database/blockchain features, configure them before running.<br>
-- Make sure Python is installed and added to PATH.<br>
+```bash
+cd ..
+```
 
----<br>
+Then go to frontend folder (if exists):
 
-🎉 That's it! ImpactHub should now run locally on your system.<br>
+```bash
+cd FRONTEND
+```
+
+---
+
+### Option 1 (Recommended): Use VS Code Live Server
+
+1. Open the FRONTEND folder in VS Code.
+2. Right click on `index.html`
+3. Click **Open with Live Server**
+
+---
+
+### Option 2: Open Directly in Browser
+
+Simply double click:
+
+```
+index.html
+```
+
+---
+
+## 4️⃣ Verify Everything Works
+
+- Backend running at:
+  ```
+  http://127.0.0.1:5000/
+  ```
+
+- Frontend should load in browser.
+- Make sure API URLs in JS files match:
+  ```
+  http://127.0.0.1:5000/
+  ```
+
+---
+
+## ⚠ Important Notes
+
+- Keep backend terminal running while using frontend.
+- If you get CORS error, ensure Flask-CORS is installed.
+- If using database/blockchain features, configure them before running.
+- Make sure Python is installed and added to PATH.
+
+---
+
+🎉 That's it! ImpactHub should now run locally on your system.
 
 🌐 Deployment<br>
 🚧 Not deployed yet.<br>
