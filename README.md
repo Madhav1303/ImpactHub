@@ -33,7 +33,7 @@ Frontend<br>
 •	CSS<br>
 •	JavaScript<br>
 
-Backend
+Backend<br>
 •	Flask<br>
 •	SQL Database<br>
 
