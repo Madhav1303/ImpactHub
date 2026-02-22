@@ -59,32 +59,32 @@ We have to worki on the following areas :<br>
 •  Deployment<br>
 
 ⚙ How to Run Locally<br>
-Follow the steps below to run the ImpactHub project on your system.<br>
+Follow the steps below to run the ImpactHub project on your system.
 
 ---
 
-## 1️⃣ Clone the Repository<br>
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Madhav1303/ImpactHub.git
+cd ImpactHub
+```
+
+---
+
+## 2️⃣ Backend Setup (Flask)
+
+### Step 1: Go to Backend Folder
 
 ```bash<br>
-git clone https://github.com/Madhav1303/ImpactHub.git<br>
-cd ImpactHub<br>
-```<br>
+cd BACKEND
+```
 
----<br>
-
-## 2️⃣ Backend Setup (Flask)<br>
-
-### Step 1: Go to Backend Folder<br>
-
-```bash<br>
-cd BACKEND<br>
-```<br>
-
----<br>
+---
 
 ### Step 2: Create Virtual Environment (Recommended)<br>
 
-#### ▶ On Windows<br>
+#### ▶ On Windows
 ```bash<br>
 python -m venv venv<br>
 venv\Scripts\activate<br>
