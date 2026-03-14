@@ -197,3 +197,10 @@ This project is developed for educational and hackathon purposes.<br>
 
 ⭐ Why Impact Hub?<br>
 Impact Hub is not just a project — it is a step toward digital transformation in the social sector, empowering students while enabling NGOs to modernize their workflows.<br>
+
+## Screenshots
+![Login Page](screenshot/login.png)
+![Signup Page](screenshot/signup.png)
+![NGO Active Problems](screenshot/active_problems.png)
+![NGO Posted Problems](screenshot/posted_problems.png)
+![Student Page](screenshot/student_page.png)
